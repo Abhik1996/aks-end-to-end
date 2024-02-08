@@ -10,10 +10,18 @@ terraform {
 
 provider "azurerm" {
   features {}
+<<<<<<< HEAD
   client_id     = var.client_id
   client_secret = var.client_secret
   subscription_id = var.subscription_id
   tenant_id       = var.tenant_id
+=======
+  subscription_id = "b81184b6-b6fb-418c-bb14-883a13e7b3a8"
+  client_id       = "dcae24e2-57fb-4e1a-a198-82baabf71d97"
+  
+  
+  tenant_id       = "2aba1677-0a6d-4375-a981-3463ba909945"
+>>>>>>> 92ba97e8204f257ba96e0520f28408582ed94206
 }
 
 # aks-terraform/main.tf
